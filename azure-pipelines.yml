@@ -1,0 +1,14 @@
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+    - topic/*
+
+pool: default
+
+steps:
+- bash: |
+    echo "Build.SourceBranch=$BUILD_SOURCEBRANCH"
+    echo "Build.SourceBranchName=$BUILD_SOURCEBRANCHNAME"
+  displayName: 'Check build variables for the branch'
