@@ -9,7 +9,7 @@ trigger:
 pool: default
 
 steps:
-- Script: |
+- bash: |
     echo "Build.SourceBranch=$BUILD_SOURCEBRANCH"
     echo "Build.SourceBranchName=$BUILD_SOURCEBRANCHNAME"
     echo "this is CI"
