@@ -1,5 +1,5 @@
 trigger:
-  batch: false
+  batch: true
   branches:
     include:
     - master
@@ -12,5 +12,5 @@ steps:
 - bash: |
     echo "Build.SourceBranch=$BUILD_SOURCEBRANCH"
     echo "Build.SourceBranchName=$BUILD_SOURCEBRANCHNAME"
-    echo "this is CI"
+    echo "this is batch"
   displayName: 'Check build variables for the branch'
