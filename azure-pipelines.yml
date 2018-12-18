@@ -3,7 +3,7 @@ trigger:
   branches:
     include:
     - master
-    - topic/*
+    #- topic/*
     - users/*
 
 pool: default
