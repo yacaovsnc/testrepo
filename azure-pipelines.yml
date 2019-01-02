@@ -6,7 +6,7 @@ trigger:
     - topic/*
     #- users/*
 
-pool: default
+#pool: default
 
 steps:
 - bash: |
