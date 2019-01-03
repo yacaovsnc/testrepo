@@ -6,7 +6,8 @@ trigger:
     - topic/*
     - users/*
 
-pool: my-private-pool
+pool: 
+  name: my-private-pool
 
 steps:
 - bash: |
