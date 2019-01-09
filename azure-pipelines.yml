@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: Default
+pool: 
+  vmImage: vs2015-win2012r2
 
 steps:
 - script: echo Hello, world!
