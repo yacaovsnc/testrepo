@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: Default
+pool: 
+jhjhjhkjh
 
 steps:
 - script: echo Hello, world!
