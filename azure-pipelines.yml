@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: Default
+pool: 
+  vmimage: Default
 
 steps:
 - script: echo Hello, world!
