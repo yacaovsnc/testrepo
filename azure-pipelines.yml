@@ -6,9 +6,6 @@
 trigger:
 - master
 
-pool: 
-  vmimage: ubuntu-16.04
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
