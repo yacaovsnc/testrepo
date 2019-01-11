@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 
-  vmimage: Ubuntu 16.04
+  vmimage: ubuntu-16.04
 
 steps:
 - script: echo Hello, world!
