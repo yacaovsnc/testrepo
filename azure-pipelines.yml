@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool: 
-  vmImage: macos-10.13
+pool: default
 
 steps:
 - script: echo Hello, world!
